@@ -1,0 +1,1 @@
+proximamente agrego más detalles
