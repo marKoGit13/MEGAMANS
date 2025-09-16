@@ -4,5 +4,6 @@
 #include <string>
 #include <nlohmann/json.hpp>
 #include <fstream>
+#include <optional>  
 
-std::tuple<int, std::string, float, float> ReadFromConfigFile(const std::string& file);
+std::optional<std::tuple<int, std::string, float, float>> ReadFromConfigFile(const std::string& file);
